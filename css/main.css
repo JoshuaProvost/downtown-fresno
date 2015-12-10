@@ -1,0 +1,443 @@
+/*GLOBAL STYLES*/
+
+/*
+===================================
+Global Styles For Non Mobiles Site
+===================================
+*/
+/** {*/
+    /*color:#FF0000;*/
+/*}*/
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption|Oleo+Script|Radley);
+
+html, body {
+    height:100%;
+}
+html {
+    background-color:#3366F;
+}
+body  {
+    background-color:#B89470;
+    margin:0px;
+    padding:0px;
+    /*font-family:'Source Sans Pro';Helvetica, sans-serif;*/
+    font-family: 'Oleo Script', cursive;
+    /*font-family: 'Radley', serif;*/
+    font-family: 'Press Start 2P', cursive;
+    font-size:16px;
+    font-weight:5000px;
+    color:#000000;
+}
+
+/*@media screen and (min-width: 600px) {*/
+/*body {background-color:#000000;}*/
+/*h1 {color:#000066;1ize:1em}*/
+/*}s*/
+
+h1,h2,h3 {
+    
+    color:#6600FF;
+    margin:0px;
+    padding:0px;
+    background-color:#FF00F;
+}
+
+h1{
+    font-size:3em;
+}
+
+p{
+    font-family: 'Oleo Script', cursive;
+    /*font-family: 'Press Start 2P', cursive;*/
+    margin:15px 0px;
+    line-height:20px;
+    text-decoration:underline;
+}
+
+strong,b{
+    color:#FF6600;
+}
+
+a:{
+    color:#FF7900;
+    text-decoration:underline;
+}
+
+a:hover{
+    color:#333300;
+}
+
+figure{
+    margin:0px;
+    padding:0px;
+}
+header{
+    
+    background-color:#B2B26B;
+    
+}
+#logo{
+    padding:15px;
+    color:#FF6600;
+}
+#logo:hover {
+    color:#FFCC66;
+    text-decoration:none;
+}
+
+/*HEADER STYLES*/
+#header {
+    padding:15px 0px 15px 0px;
+    position:relative;
+    }
+
+/*NAVIGATION STYLES*/
+
+#menu {
+    position:absolute;
+    top:40px;
+    right:5%;
+}
+/*#menu ul{
+    display:inline;
+    background-color:#009900;
+}*/
+#menu li{
+    display:inline;
+    background-color:#00006;
+    margin:0px 10px;
+    border-radius:0px 19px 0px 19px;
+    padding:10px 10px 10px 10px;
+    text-transform:uppercase;
+    text-align:center;
+}
+#menu li a:hover{
+    background-color:#FFFF0;
+}
+#menu li:after{
+    content:"|";
+    padding:0px 20px;
+    color:rgb(0, 51, 153);
+}
+
+
+figure {
+    background-color:#997A3 d;
+    width:1250px;
+}
+
+hr{
+    padding:25px;
+    
+}
+
+.currentPage {
+    color:#CC0000;
+    background-color:#FF6600;
+}
+
+/*BANNER STYLES */
+
+#bannerdHome {
+    border:7px solid #FFCC66;
+    background-color:#626261;
+    padding:100px 320px;
+    background:url(../images/smile.jpg) no-repeat  ;
+    background-size:cover;
+    overflow:hidden;
+    
+}
+#bannerAbout {
+    border:7px solid #FFCC66;
+    background-color:#626261;
+    padding:100px 320px;
+    background:url(../images/epic-smiley-meme-fb-cover.jpg) ;
+    background-size:cover;
+    overflow:hidden;
+}
+#bannerContact {
+    border:7px solid #FFCC66;
+    background-color:#626261;
+    padding:100px 320px;
+    background:url(../images/maplayer.jpg) ;
+    background-size:cover;
+    overflow:hidden;
+}
+#bannerdTyping {
+    background:url(../images/matrix.jpg);
+    background-size:cover;
+    overflow:hidden;
+    border:7px solid #FFCC66;
+    background-color:#626261;
+    padding:70px 32px;
+}
+.bannerTitle {
+    text-align:center;
+    color:#3C3C3C;
+    font-size:60px;
+    text-shadow:6px 6px 6px #FFFF00;
+}
+
+.bannerTitle2 {
+    text-align:center;
+    color:;
+}
+.backgroundImage {
+    background:url(../images/jellybeans.jpg);
+}
+
+.mainWidth {
+    width:1200px;
+    margin:0px auto;
+    background-color:#626261;
+}
+
+
+.columnA,.columnB,.columnC {
+    width:384px;
+    margin:0px 8px;
+    float:left;
+}
+/*margin to make columns*/
+/*.columnA, .columnB{
+    float:left;
+    margin-right:24px;
+    
+}
+columnC {
+    float:right;
+    margin-right:8px;
+    margin-left:;*/
+}
+.columnA h2, .columnB h2, .columnC h2 {
+    color:#6600FF;
+    font-size:3em;
+    font-weight:;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+/*.falloutClass{
+    width:384px;
+    height:225px;
+    background-color:#009900;
+}*/
+.falloutClass span{
+    color:#FFFFFF;
+    display:block;
+    background-color:#003399;
+    font-weight:10px;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding:0px 10px;
+}
+
+.columnA p, .columnB p, .columnC p,{
+    text-align:justify;
+    padding:0px;
+}
+/* Button Styles*/
+
+.button {
+    color:#000000;
+    background-color:#999966;
+    border-color:#47476b;
+    border-radius:70px 700px 70px 700px;
+    padding:12px 20px;
+    text-decoration:none;
+    border-bottom:2px solid #000000;
+    border-top:2px solid #000000;
+    border-right:2px solid #000000;
+    border-left:2px solid #000000;
+    font-weight:700;
+    float:left;
+}
+
+.button:hover {
+    color:#666666;
+    background-color:#000000;
+    border-bottom:2px solid #6b4747;
+    border-top:2px solid #6b4747 ;
+    border-right:2px solid #6b4747;
+    border-left:2px solid #6b4747;
+    cursor: url(http://cur.cursors-4u.net/smilies/smi-3/smi213.cur),progress;
+}
+
+a.buttonRed {
+    
+}
+a.buttonRed:hover{
+    
+}
+#awesome {
+    margin-left:300px;
+    margin-top:7px;
+}
+
+/*About Me Styles*/
+
+.alignLeft {
+    float:left;
+    width:384px;
+    margin-right:24px;
+}
+.alignRight{
+    float:right;
+    width:792px;
+    text-align:justified;
+}
+
+#main {
+    margin-bottom:25px;
+}
+
+/*Footer*/
+
+footer {
+    clear:both;
+    margin-top:1px;
+    background-color:#666633;
+}
+
+footer p{
+    text-align:center;
+    font-size:2em;
+}
+
+
+.copyRight {
+    overflow:hidden;
+    padding:30px 0px;
+    border-top: 3px dotted #FFCC66;
+    display:block;
+    
+}
+
+.social {
+    text-align:center;
+    
+}
+
+.copyright p {
+    text-align:center;
+    font-size:14px;
+}
+
+footer p a {
+    color:#B89470;
+}
+
+footer p a {
+    color:#000099;
+}
+
+/*extra styles*/
+
+.fa {
+    border-radius:100%;
+    background-color:rgb(141,198,63);
+    border:3px solid #FFF;
+    font-size:2em !important;
+    margin:15px;
+    color:#FFF;
+    height:43px;
+    width:50px;
+    padding-top:10px;
+    }
+
+.fa:hover {
+    background-color:#666633;
+}
+
+.fafa-linkedIn {
+    background-color:#0C5165E;
+    
+}
+
+article span{
+    padding:3px 3px;
+}
+
+p{
+    text-decoration:none;
+    font-size:19px;
+}
+
+/*=====================table styles============================*/
+
+#myData {
+    margin:0px auto;
+    width:90px;
+}
+#myHeader {
+    color:#FFFFFF;
+    background-color:#B2B26B;
+    text-shadow:1px 1px 2px #000000;
+    font-size:1.3em;
+}
+
+#groupData {
+    margin:0px auto;
+    width:900px;
+}
+
+#groupHeader {
+    color:#FFFFFF;
+    background-color:#B2B26B;
+    text-shadow:1px 1px 2px #000000;
+    font-size:1.3em;
+}
+th {
+    background-color:#B2B26B;
+}
+
+/* FORM STYLES */
+
+.assturdticks { 
+    color:#FF0000;
+    
+    
+}
+
+fieldset {
+    background-color:#669900;
+}
+
+input, textarea {
+    margin:6px;
+    box-shadow:4px 4px 4px #b35900;
+    border-style:2px solid;
+    display:block;
+    height:25px
+    color:#0000cc;
+}
+
+textarea {
+    height:200px;
+}
+
+#duhname, #demail, #pppassword {
+    border-radius:5%;
+}
+
+/* FORM STYLES END HERE */
+
+@media screen and (max-width:1024px) {
+   #main {
+       
+   }
+   .columnA, .columnB, .columnC, {
+        width:auto;
+        margin:1% auto;
+   }
+   h2 {
+       font-size:.75em;
+   }
+   p {
+        font-size:1em;
+    }
+.mainwidth {
+    width:100%;
+    margin:20px auto;
+}
+}
