@@ -63,6 +63,25 @@
         height:300px;
         background-color:#F1F1F1;
     }
+    .Josh{
+        display:none;
+    }
+    .mobileAside {
+        width:100%;
+        display:block !important;
+    }
+    .mobileAbout {
+        width:auto;
+        display:block;
+        margin:25px 0px;
+    }
+    .columnA h2, .columnB h2, .columnC h2 {
+        font-size:3em;
+    }
+    .mainWidth {
+        width:95%;
+        padding:20px;
+    }
     nav > ul > li {
         
     }

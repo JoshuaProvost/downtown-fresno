@@ -48,7 +48,7 @@ h1{
 
 p{
     font-family: 'Oleo Script', cursive;
-    /*font-family: 'Press Start 2P', cursive;*/
+    font-family: 'Press Start 2P', cursive;
     margin:15px 0px;
     line-height:20px;
     text-decoration:underline;
@@ -237,7 +237,6 @@ columnC {
     padding:0px;
 }
 /* Button Styles*/
-
 .button {
     color:#000000;
     background-color:#999966;
@@ -251,6 +250,9 @@ columnC {
     border-left:2px solid #000000;
     font-weight:700;
     float:left;
+    /*-webkit-border-radius:6px;*/
+    /*-moz-border-radius:6px;*/
+    /*-o-border-radius:6px;*/
 }
 
 .button:hover {
@@ -270,7 +272,7 @@ a.buttonRed:hover{
     
 }
 #awesome {
-    margin-left:300px;
+    text-align:center;
     margin-top:7px;
 }
 
@@ -340,9 +342,9 @@ footer p a {
     font-size:2em !important;
     margin:15px;
     color:#FFF;
-    height:43px;
-    width:50px;
-    padding-top:10px;
+    height:58px;
+    width:58px;
+    padding:10px;
     }
 
 .fa:hover {
@@ -420,6 +422,9 @@ textarea {
     border-radius:5%;
 }
 
+#wufoo-m1cje1w6153y0l2 {
+    border-radius:10px;
+}
 /* FORM STYLES END HERE */
 
 @media screen and (max-width:1024px) {
